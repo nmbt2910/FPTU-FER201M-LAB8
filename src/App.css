@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+/* App.css */
+/* App.css */
+img {
+  width: 100%; /* Set the width to 100% of its container */
+  height: auto; /* Automatically adjust the height while maintaining aspect ratio */
+  max-width: 300px; /* Set a maximum width for the images */
+}
+
+iframe {
+  width: 50%; /* Set the width to 50% */
+  height: calc(50vw * 0.5625); /* Maintain the aspect ratio of 16:9 */
+  display: block; /* Make the iframe a block-level element */
+  margin: 0 auto; /* Center the iframe horizontally */
+}
