@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Typography, Box, Avatar, Button, Paper } from '@mui/material';
+import { Typography, Box, Avatar, Button } from '@mui/material';
 import { useAuth } from './AuthContext';
 
 function UserProfile() {
